@@ -1,0 +1,14 @@
+git clone repo
+git remote -v
+git remote add JulioCesarMS https://github.com/JulioCesarMS/proyecto_colaborativo.git
+
+# fetch : Download objects and refs from another repository
+git fetch origin main
+# merge : Join two or more development histories together
+git merge origin main 
+# pull : fetch and merge
+git pull origin main: Fetch from and integrate with another repository or a local branch
+# push
+git push remote local_branch
+# push into remote from local branch
+git push origin main
